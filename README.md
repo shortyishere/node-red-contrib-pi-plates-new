@@ -1,4 +1,4 @@
-node-red-contrib-pi-plates
+node-red-contrib-pi-plates-new
 ==========================
 
 A <a href="http://nodered.org" target="_new">Node-RED</a> node that enables
@@ -14,7 +14,7 @@ Install
 
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
-    npm install node-red-contrib-pi-plates
+    npm install node-red-contrib-pi-plates-new
 
 
 Usage
