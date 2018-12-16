@@ -6,6 +6,7 @@ communication with <a href="https://pi-plates.com">Pi-Plates</a> boards.
 
  - RELAYplate
  - DAQCplate
+ - DAQC2plate
  - MOTORplate
 
 Install
@@ -23,4 +24,4 @@ First, make sure the Pi-Plates stack is working with the standard python interfa
 following the Getting Started setup steps [here](https://pi-plates.com/getting_started/).
 The node actually uses a python script under the hood (similar to the stock gpio node) so
 if the Pi Plates python interface isn't setup and working, then this will not work either.
-
+Now includes some DAQC2plate support
