@@ -1,13 +1,13 @@
 {
-  "name": "node-red-contrib-pi-plates",
-  "version": "0.0.4",
-  "description": "control Pi-Plates boards from Node-RED",
+  "name": "node-red-contrib-pi-plates-new",
+  "version": "0.0.5",
+  "description": "control Pi-Plates boards from Node-RED New",
   "scripts": {
     "test": "scripts/test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mharsch/node-red-contrib-pi-plates.git"
+    "url": "git+https://shortyishere@github.com/shortyishere/node-red-contrib-pi-plates-new.git"
   },
   "node-red": {
     "nodes": {
@@ -19,9 +19,7 @@
       "ppTEMP": "temp.js"
     }
   },
-  "dependencies": {
-    "pi-plates": "0.0.x"
-  },
+  "dependencies": {},
   "keywords": [
     "node-red",
     "pi-plates",
@@ -33,10 +31,4 @@
     "dac",
     "iot"
   ],
-  "author": "Mike Harsch <mike@harschsystems.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/mharsch/node-red-contrib-pi-plates/issues"
-  },
-  "homepage": "https://github.com/mharsch/node-red-contrib-pi-plates#readme"
 }
