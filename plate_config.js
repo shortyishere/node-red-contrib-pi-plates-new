@@ -8,21 +8,26 @@ module.exports = function (RED) {
         const addr = parseInt(this.address, 10);
 
         switch (this.model) {
-            case "RELAYplate":
+            case "RELAYplate": {
                 this.plate = new RELAYplate(addr);
                 break;
-            case "DAQCplate":
+            }
+            case "DAQCplate": {
                 this.plate = new DAQCplate(addr);
                 break;
-            case "DAQC2plate":
+            }
+            case "DAQC2plate": {
                 this.plate = new DAQC2plate(addr);
                 break;
-            case "MOTORplate":
+            }
+            case "MOTORplate": {
                 this.plate = new MOTORplate(addr);
                 break;
-            default:
+            }
+            default: {
                 this.error('incorrect plate specifier');
                 break;
+            }
         }
     }
     RED.nodes.registerType("pi_plate", PlateNode);
